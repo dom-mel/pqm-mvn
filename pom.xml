@@ -41,6 +41,17 @@
         </dependency>
     </dependencies>
 
+    <scm>
+        <url>https://github.com/dom-mel/pqm-mvn</url>
+        <connection>scm:git:git://github.com/dom-mel/pqm-mvn.git</connection>
+        <developerConnection>scm:git:git@github.com:dom-mel/pqm-mvn.git</developerConnection>
+    </scm>
+
+    <issueManagement>
+        <url>https://github.com/dom-mel/pqm-mvn/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
     <build>
         <plugins>
             <plugin>

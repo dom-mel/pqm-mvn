@@ -1,4 +1,0 @@
-Simple CSV parsing.
-
-Build: mvn package
-Run: java -jar target/org.linesofcode.bht.pqm.csv-1.0-jar-with-dependencies.jar

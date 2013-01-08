@@ -90,11 +90,17 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
-                <version>2.2</version>
+                <version>2.5.2</version>
                 <configuration>
                     <formats>
                         <format>html</format>
                     </formats>
+                    <instrumentation>
+                        <excludes>
+                            <exclude>org/linesofcode/bht/pqm/csv/Main.class</exclude>
+                        </excludes>
+                    </instrumentation>
+                    <check/>
                 </configuration>
                 <executions>
                     <execution>
